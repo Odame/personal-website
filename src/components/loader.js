@@ -62,27 +62,27 @@ class Loader extends Component {
     loader
       .add({
         targets: '#logo #left-outline',
-        delay: 300,
-        duration: 550, // initially 1500
-        easing: 'easeInOutQuart',
+        delay: 200,
+        duration: 450,
+        easing: 'linear',
         strokeDashoffset: [anime.setDashoffset, 0],
       })
       .add({
         targets: '#logo #right-outline',
-        delay: 0,
-        duration: 700, // initially 100
+        delay: -10,
+        duration: 700,
         easing: 'easeInOutQuart',
         strokeDashoffset: [anime.setDashoffset, 0],
       })
       .add({
         targets: '#logo #tag-line',
-        duration: 600, // initially 800
+        duration: 400,
         easing: 'easeInOutQuart',
         opacity: 1,
       })
       .add({
         targets: '#logo',
-        delay: 700,
+        delay: 600,
         duration: 300,
         easing: 'easeInOutQuart',
         opacity: 0,
@@ -90,7 +90,7 @@ class Loader extends Component {
       })
       .add({
         targets: '.loader',
-        duration: 200,
+        duration: 100,
         easing: 'easeInOutQuart',
         opacity: 0,
         zIndex: -1,
