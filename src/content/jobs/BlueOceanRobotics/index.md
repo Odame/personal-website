@@ -7,7 +7,7 @@ range: 'December 2019 - Present'
 url: 'https://www.blue-ocean-robotics.com/'
 ---
 
-- Lead developer for backend systems development. Major contributor in systems architect design.
+- Lead developer for backend systems development. Major contributor in systems architecture design.
 - Designed and built a scalable backend system as a set of microservices for high availability. Services interact with each other asynchronously via events.
 - Developed an optimized Electron-based React application that runs on resource-constrained hardware.
 - Designs and implements custom safety-critical algorithms for remotely-controlled robots
